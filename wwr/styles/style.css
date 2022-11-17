@@ -87,10 +87,12 @@ nav a:hover {
 }
 
 footer{
+    display: grid;
+    grid-template-columns: 150px auto;
 
-    margin-top: 200px;
+    margin-top: 50px;
     padding: 25px 50px;
-    background-color: greenyellow;
+    background-color: rgb(173, 173, 173);
     display: flex;
     justify-content: space-around;
     align-items: center;
