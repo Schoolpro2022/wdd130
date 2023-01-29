@@ -51,12 +51,12 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color:rgba(20,30,13, .7);
+    background-color:#219EBC;
 }
 
 nav a:hover {
-    background-color:#219EBC;
-    color:white;
+    background-color:#FFFFFF;
+    color:#023047;
 
 }
 
