@@ -117,16 +117,20 @@ header {
     color: #003D71;
     margin-bottom: 0px;
     text-align: left;
+    margin-top: 0px;
   }
   p {
+    margin-top: 10px;
     margin-bottom: 0px;
   }
   /* Style for form labels */
 label {
     text-align: left;
-    /*display: block;*/
+    display: block;
     margin-bottom: 10px;
     font-weight: bold;
+
+    
   }
   
   /* Style for form inputs and textareas */
@@ -216,11 +220,12 @@ label {
   }
   #myChartImage {
     float: left;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 10px;
-    width: 50%;
+    width: 35%;
     height: auto;
     grid-column: 1;
+    margin-left: 10px;
   }
   .chart-box{
     /*display: grid;
@@ -228,7 +233,8 @@ label {
     
   }
   .textChart{
-    padding: 15px;
+    padding: 10px;
+    
     
     width: 100%;
     height: auto;
@@ -236,20 +242,28 @@ label {
 
   }
   .footer {
+   /* display: grid !important;
+    grid-template-columns: repeat(2, 1fr);*/
+  }
+  .new-footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15px;
+
   }
   .footer-menu{
     grid-column: 1;
     text-align: left;
-    margin: 20px;
+    margin: 0px;
+    margin-top: 5px;
 
   }
   .social-media{
+    margin-top: 5px;
    
     grid-column: 2;
     text-align: right;
-    margin: 20px;
+    margin: 0px;
     margin-right: 10px;
   }
   .social-media img{
@@ -279,5 +293,65 @@ label {
     border-radius: 5px;
     
   }
+
+  /* STYLE FOR CONTACT PAGE HERE*/
+
+  .contact-box{
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+  .logo-box{
+    grid-column: 1;
+    text-align: center;
+   
+    margin-top: 0px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+  }
+  .contact-text{
+    grid-column: 2;
+    text-align: left;
+    margin: 0px;
+    margin-top: 0px;
+   
+  }
+
+  .page-title{
+    background-color: #f2f2f2;
+    
+  }
+  .page-title-box{
+    margin:1%
+  }
+  hr {
+    border-color: #FCA311;
+  }
+
+  #setup-images {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 50%;
+    height: auto;}
+
+    .asistance{
+      text-align: left;
+    }
+    .contrat{
+      grid-column: 1 / span 3;
+
+
+
+      padding: 20px;
+    align-self: start;
+    width: 95%;
+
+    }
+
+    
   
   
