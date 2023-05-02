@@ -24,7 +24,7 @@ header {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px black;
-    padding-left: 30px; /* add some left padding to create some space from the menu */
+    padding-left: 30px; 
   }
   
   .portada-imagen {
